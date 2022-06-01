@@ -66,11 +66,3 @@ def reply(message):
     print(message.text) # Record incoming messages
 
 bot.polling(none_stop=True) # starts the bot
-
-
-############################## NOTES ##############################
-
-# find(element_tag, attribute) #return first matching item
-# find_all(element_tag, attribute) #return list of matching items
-# print(soup.find(class_='media media--hero media--primary media--overlay block-link').get('data-bbc-title'))
-# print(soup.prettify())
